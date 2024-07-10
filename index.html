@@ -3,36 +3,186 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나혜 portfolio 2024</title>
+    <title>김나혜 | portfolio 2024</title>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
-    <!-- 스와이퍼 붙여넣기 한것 (아래) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- 
-        font-family: "DM Serif Display", serif;
-    font-family: "Noto Sans KR", sans-serif;
-    -->
+    <!-- font-family: "DM Serif Display", serif;
+    font-family: "Noto Sans KR", sans-serif; -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <script src="./scripts/script.js" defer></script>
+    <script src="./script/script.js" defer></script>
 </head>
 <body>
-    <!-- fixed menu -->
+    <!-- 고정메뉴 -->
     <nav>
-        <a href="#">intro</a>
-        <a href="#">profile</a>
-        <a href="#">project</a>
+        <a href="#intro">intro</a>
+        <a href="#profile">profile</a>
+        <a href="#project">project</a>
     </nav>
-    <!-- 1. intro-->
-    <div class="intro">
-        <p class="year">2024</p>
-        <div class="center">
-            <h1>portfolio</h1>
-            <p class="name">by nahye</p>
-            <p class="info">i'm designer who ..</p>
+    <div class="bg">
+        <!-- 1. 인트로 -->
+        <div class="intro" id="intro">
+            <p class="year">2024</p>
+            <div class="center">
+                <h1>portfolio</h1>
+                <p class="name">by 민지</p>
+                <p class="info">무궁무진한 아이디어로 대박을 터트리는 웹디자이너!</p>
+            </div>
         </div>
-        <div class="nav">
-            
+        <div class="profile" id="profile">
+            <div class="photo">
+                <img src="./images/photo.jpg" alt="">
+            </div>
+            <div class="txt">
+                <div class="list">
+                    <h2>프로필</h2>
+                    <p>2000년 02월 25일</p>
+                    <p>인천광역시 계양구</p>
+                    <p>+82 010-9969-4662</p>
+                    <p>casenoxove@naver.com</p>
+                </div>
+                <div class="list">
+                    <h2>경력사항 및 자격증 & 학력</h2>
+                    <p>2024.03 ~ 2024.08 웹디자인&웹퍼블리셔 양성 과정 수료</p>
+                    <p>2024.01 ~ 2024.03 디자인 아르바이트</p>
+                    <p>2023.03 웹디자인 기능사 합격</p>
+                    <p>2020.06 운전면허 1종 자동</p>
+                    <p>2020.01 대학 공모전 특상</p>
+                </div>
+                <div class="list">
+                    <h2>사용 가능 프로그램</h2>
+                    <p><em>illustator</em> : <span>로고디자인, 캐릭터 디자인, 패키지 디자인 가능</span></p>
+                    <p><em>photoshop </em> : <span>배너, 상세, 웹 디자인 작업 가능</span></p>
+                    <p><em>GitHub</em> : <span>소스 코드 관리 및 협업 가능</span></p>
+                    <p><em>HTML</em> : <span>웹 페이지 구조 설계 및 콘텐츠 작성 가능</span></p>
+                    <p><em>CSS</em> : <span>스타일링 및 레이아웃 디자인 가능</span></p>
+                    <p><em>JavaScript</em> : <span>웹 인터랙션 및 동적 기능 구현 가능</span></p>
+                    <p><em>jQuery</em> : <span>간편한 DOM 조작 및 이벤트 처리 가능</span></p>
+                    <p><em>JavaScript Plugin</em> : <span>다양한 플러그인 활용 및 커스터마이징 가능</span></p>
+                    <p><em>PHP Include</em> : <span>서버 사이드 스크립팅 및 재사용 가능한 코드 작성 가능</span></p>
+                    <p><em>Figma</em> : <span>UI/UX 디자인 및 프로토타이핑 가능</span></p>
+                    <p><em>UI/UX</em> : <span>사용자 경험 및 인터페이스 설계 가능</span></p>
+                </div>
+            </div>
+        </div>
+    </div> <!-- intro 배경 끝 위치 -->
+    <div class="project" id="project">
+        <h1>app design : <span>TEAM</span></h1>
+        <div class="app">
+            <div class="thum"><img src="./project/app/team.jpg" alt=""></div>
+            <div class="app_info">
+                <p>부제목</p>
+                <h3>앱 이름</h3>
+                <p class="date">2024.07.12 ~ 2024.07.23</p>
+                <ul>
+                    <li>3인 팀작업(참여도 100%)</li>
+                    <li>사용 프로그램</li>
+                    <li>photoshop, illustator, figma</li>
+                    <li>제작 페이지</li>
+                    <li>앱 메인, 로그인, 회원가입, 장바구니... 총? 페이지</li>
+                    <li>담당 페이지</li>
+                    <li>로그인, 회원가입 총 2페이지</li>
+                </ul>
+                <div class="link">
+                    <a href="#" target="_blank">와이어프레임</a>
+                    <a href="#" target="_blank">기획서</a>
+                    <a href="#" target="_blank">결과보기</a>
+                </div>
+            </div>
+        </div>
+        <h1>web design</h1>
+        <div class="web">
+            <!-- swiper > swiper-wrapper > swiper-slide -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="thum"><img src="./project/web/thumnails/web1.jpg" alt=""></div>
+                        <div class="web_info">
+                            <h3>web 이름</h3>
+                            <p class="date">2024.07.12 ~ 2024.07.23</p>
+                            <ul>
+                                <li>반응형웹</li>
+                                <li>사용 프로그램</li>
+                                <li>photoshop, illustator, figma, html, css</li>
+                                <li>제작 페이지</li>
+                                <li>앱 메인, 로그인, 회원가입, 장바구니... 총? 페이지</li>
+                            </ul>
+                            <div class="link">
+                                <a href="#" target="_blank">gitHub</a>
+                                <a href="#" target="_blank">기획서</a>
+                                <a href="#" target="_blank">결과보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="thum"><img src="./project/web/thumnails/web2.jpg" alt=""></div>
+                        <div class="web_info">
+                            <h3>web 이름</h3>
+                            <p class="date">2024.07.12 ~ 2024.07.23</p>
+                            <ul>
+                                <li>반응형웹</li>
+                                <li>사용 프로그램</li>
+                                <li>photoshop, illustator, figma, html, css</li>
+                                <li>제작 페이지</li>
+                                <li>앱 메인, 로그인, 회원가입, 장바구니... 총? 페이지</li>
+                            </ul>
+                            <div class="link">
+                                <a href="#" target="_blank">gitHub</a>
+                                <a href="#" target="_blank">기획서</a>
+                                <a href="#" target="_blank">결과보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 내비게이션이 슬라이드 안에 있을때 생성위치 -->
+            </div><!-- swiper 닫는 위치 -->
+            <!-- 내비게이션이 슬라이드 """"밖에""""" 있을때 생성위치 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!-- 이전다음 작성 후 script 추가 작성 꼭!!! -->
+        </div>
+        <h1>sns design</h1>
+        <div class="sns">
+            <div class="swiper"><!-- 보이는영역 -->
+                <div class="swiper-wrapper"><!-- 움직이는 대상 -->
+                    <div class="swiper-slide"><img src="./project/design/sns/001.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/002.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/003.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/004.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/005.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/006.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/007.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./project/design/sns/008.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <h1>banner design</h1>
+        <div class="banner">
+            <p><img src="./project/design/banner/001.jpg" alt=""></p>
+            <p><img src="./project/design/banner/002.jpg" alt=""></p>
+            <p><img src="./project/design/banner/003.jpg" alt=""></p>
+            <p><img src="./project/design/banner/004.jpg" alt=""></p>
+            <p><img src="./project/design/banner/005.jpg" alt=""></p>
+            <p><img src="./project/design/banner/006.jpg" alt=""></p>
+        </div>
+        <h1>detail design</h1>
+        <div class="detail">
+            <p>클릭하면 크게 볼 수 있어요!</p>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#"><img src="./project/design/detail/001.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./project/design/detail/002.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./project/design/detail/003.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./project/design/detail/004.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./project/design/detail/005.jpg" alt=""></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./project/design/detail/006.jpg" alt=""></a></div>
+                </div>
+            </div>
+            <!-- swiper 클릭시 실행되는 작업 -->
+            <div class="big_bg">
+                <div class="img"><img src="./project/design/detail/001.jpg" alt=""></div>
+            </div>
         </div>
     </div>
 </body>
