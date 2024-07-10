@@ -1,0 +1,43 @@
+/* ㄱㅗㅇㅌㅗㅇ */
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 10rem; font-weight: 600; color: #fff; 
+    text-align: center; letter-spacing: 4px;
+    text-transform: capitalize; /* first font big ㅇㅏㅍㄱㅡㄹㅈㅏ ㅁㅏㄴ ㄷㅐㅁㅜㄴㅈㅏ */
+}
+/* 0. fixed menu */
+nav {
+    position: fixed;
+    bottom: 50px; right: 50px;
+    z-index: 999;
+}
+nav::after {
+    content: ''; display: inline-block;
+    top: 0; right: 0;
+    width: 2.5px; height: 100%;
+    background-color: #fff;
+    position: absolute;
+}
+nav > * {color: #fff;}
+nav > a {display: block; text-align: right; padding: 10px 0;}
+
+/* intro */
+.intro {
+    background: url(../images/bg.jpg) center 40%;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+.intro .year {padding: 20px;}
+.intro .center {
+    text-align: center;
+    padding: 200px 0 0;
+}
+.intro .center h1 {
+    /* ㅅㅗㅁㅜㄴㅈㅏㄹㅡㄹ ㄷㅐㅁㅜㄴㅈㅏㄹㅗ ㅁㅏㄴㄷㅡㄹㄱㅣ */
+}
+.intro .center .name {
+    font-size: 2rem;
+    transform: translateY(-50px);
+}
+.intro .center .info {font-size: 1.2rem;}
